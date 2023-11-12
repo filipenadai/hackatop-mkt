@@ -46,7 +46,7 @@ const PHONES = [
 ]
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: process.env.OPENAI_KEY,
   });
 
   const question = req.body.question;
