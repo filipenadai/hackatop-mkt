@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Poppins } from 'next/font/google'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
@@ -12,7 +11,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col ${poppins.className} bg-white`}
     >
       <Header />
-        <HomePage />
+      <HomePage />
       <Footer />
     </main>
   )

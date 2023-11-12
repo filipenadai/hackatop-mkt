@@ -6,8 +6,8 @@ export function Hero() {
           <br />
           <strong>experiência</strong>
         </h1>
-        <p className='text-black text-center mt-2 md:mt-4 text-md md:text-lg font-medium md:text-left'>Transforme a jornada em uma experiência memorável</p>
-        <p className='text-black text-center mt-4 md:mt-6 text-sm md:text-base md:text-left max-w-lg'>A Caca é um IA que estuda seus produtos e proporciona uma experiência única na jornada de compra</p>
+        <p className='text-black text-center mt-2 md:mt-4 text-md md:text-lg font-medium md:text-left'>Transforme a jornada do cliente em uma experiência memorável</p>
+        <p className='text-black text-center mt-4 md:mt-6 text-sm md:text-base md:text-left max-w-lg'>A Caca é um IA que estuda seus produtos e proporciona uma experiência única usando áudio, texto ou vídeo.</p>
       </div>
       <img
         src="/caca-hero.png"
